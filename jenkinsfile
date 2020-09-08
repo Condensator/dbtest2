@@ -23,7 +23,7 @@ def dbMaestroParameters = \
               packageHintPath: "Database\\package.json", \
               proxyPath: "http://localhost:89/Projects/1/packages", \
               packageType: "adhoc", \
-              driftDashboard: [[name: "Proxy_test123", environments: ["Release Source"]]
+              driftDashboard: [[name: "Proxy_test123", environments: ["Release Source", "QA_Env_1", "QA_Env_2", "Prod_Env_1"]]
               ]]
 
 pipeline {
