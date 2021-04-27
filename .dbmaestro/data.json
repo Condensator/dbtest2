@@ -95,6 +95,25 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "779ce0a0-0dd6-4c1c-9b2c-facbf1d1bb34",
+        "ProjectName": "Project2",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": false
+        },
+        "LocalDirectory": "C:\\apps\\sc2"
+      },
+      "UserData": [
+        {
+          "UserName": "KyryloZ-DBM",
+          "DatabasesData": []
+        }
+      ]
     }
   ]
 }
