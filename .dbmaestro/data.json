@@ -185,6 +185,20 @@
               }
             }
           ]
+        },
+        {
+          "UserName": "KyryloZ-DBM",
+          "DatabasesData": [
+            {
+              "DatabaseId": "8092438b-1038-4958-9c3f-4214c056de39",
+              "DatabaseAliasName": "testdb1",
+              "ConnectionString": "hrVyiCHlP0Mndmqddt7t45LDi1be8hRj9yYSIiaq4eOZTfCLFyQ0nH8mKlmpJVhZCyjvhbVW7AJWtRRupA6d7jDnYnonrX1WWaqbLHko1X67RkKaSS3oQ9+xxKTt4878+VeJgSg8JnQyrAeCftWm5g==",
+              "RepositoryCredentials": {
+                "UserName": "KyryloZ-DBM",
+                "Password": "oJtdZOTQoQHjJKoDqxPhnrUH/r6VS470pcjQPtbUJr8="
+              }
+            }
+          ]
         }
       ]
     }
