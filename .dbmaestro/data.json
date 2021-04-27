@@ -5,7 +5,24 @@
         "ProjectId": "2a751162-1083-472a-afa5-922589396eea",
         "ProjectName": "TestProject1",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "1e8b0d66-4780-40c6-ba3e-78f2a9276d4a",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "a5266741-f95b-4373-8833-c2a2cbd177fb",
+                "DatabaseAliasName": "SCTestDB1",
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/dbtest2.git",
+                  "BranchName": "test123"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": false
@@ -15,7 +32,17 @@
       "UserData": [
         {
           "UserName": "Condensator",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "a5266741-f95b-4373-8833-c2a2cbd177fb",
+              "DatabaseAliasName": "SCTestDB1",
+              "ConnectionString": "hrVyiCHlP0Mndmqddt7t45LDi1be8hRj9yYSIiaq4ePMiOJ1tp/Ayv9kL6ayO1Rh7YJAPs7acUQbvGeI3Hwrdh/dFCWzJvU6rYA8nHsS1odlxThufqs+6AmOOvXgsYHTcJ6txILV5E22pL6YZMtB+w==",
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "ea8yGmw+Ej86bcCmU276W0MIxBY+HgVL69KchuT36x+2OvFcsTg2ga4857NYiiLF"
+              }
+            }
+          ]
         }
       ]
     }
