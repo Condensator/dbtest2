@@ -3,7 +3,7 @@
     {
       "GlobalData": {
         "ProjectId": "2a751162-1083-472a-afa5-922589396eea",
-        "ProjectName": "TestProject1",
+        "ProjectName": "ProjectCondensator",
         "DBTypeName": "SQL Server",
         "Environments": [
           {
@@ -45,7 +45,7 @@
         "Configuration": {
           "BuildMigrationScriptAutomatically": false
         },
-        "LocalDirectory": "C:\\apps\\scui\\test1"
+        "LocalDirectory": "C:\\apps\\sourcecontrol\\sck"
       },
       "UserData": [
         {
