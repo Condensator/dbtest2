@@ -1,0 +1,23 @@
+{
+  "Projects": [
+    {
+      "GlobalData": {
+        "ProjectId": "2a751162-1083-472a-afa5-922589396eea",
+        "ProjectName": "TestProject1",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": false
+        },
+        "LocalDirectory": "C:\\apps\\scui\\test1"
+      },
+      "UserData": [
+        {
+          "UserName": "Condensator",
+          "DatabasesData": []
+        }
+      ]
+    }
+  ]
+}
