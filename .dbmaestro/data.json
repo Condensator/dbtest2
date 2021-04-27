@@ -19,6 +19,15 @@
                   "RemoteRepositoryURL": "https://github.com/Condensator/dbtest2.git",
                   "BranchName": "test123"
                 }
+              },
+              {
+                "DatabaseId": "4adfeddb-8e5e-4986-9a2d-33a84c71ef0a",
+                "DatabaseAliasName": "RS2",
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/dbtest2.git",
+                  "BranchName": "test123"
+                }
               }
             ]
           }
@@ -37,6 +46,15 @@
               "DatabaseId": "a5266741-f95b-4373-8833-c2a2cbd177fb",
               "DatabaseAliasName": "SCTestDB1",
               "ConnectionString": "hrVyiCHlP0Mndmqddt7t45LDi1be8hRj9yYSIiaq4ePMiOJ1tp/Ayv9kL6ayO1Rh7YJAPs7acUQbvGeI3Hwrdh/dFCWzJvU6rYA8nHsS1odlxThufqs+6AmOOvXgsYHTcJ6txILV5E22pL6YZMtB+w==",
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "ea8yGmw+Ej86bcCmU276W0MIxBY+HgVL69KchuT36x+2OvFcsTg2ga4857NYiiLF"
+              }
+            },
+            {
+              "DatabaseId": "4adfeddb-8e5e-4986-9a2d-33a84c71ef0a",
+              "DatabaseAliasName": "RS2",
+              "ConnectionString": "hrVyiCHlP0Mndmqddt7t45LDi1be8hRj9yYSIiaq4eOD3YcDD6SsGhl8oC7AT+4fopQoD6g3Cl3G3rgw6x4QyiiE8YnfUD1315muvs8Txyuxnte9FqLb+Tbsb/B8Nw3J4bx8a12Ly7der8m7hfhAKg==",
               "RepositoryCredentials": {
                 "UserName": "Condensator",
                 "Password": "ea8yGmw+Ej86bcCmU276W0MIxBY+HgVL69KchuT36x+2OvFcsTg2ga4857NYiiLF"
