@@ -43,6 +43,20 @@
               }
             }
           ]
+        },
+        {
+          "UserName": "KyryloZ-DBM",
+          "DatabasesData": [
+            {
+              "DatabaseId": "a5266741-f95b-4373-8833-c2a2cbd177fb",
+              "DatabaseAliasName": "SCTestDB1",
+              "ConnectionString": "edncWmgAnEtIIBWD2dmDq7rc0nQyPsVhr7E3KnW0yiEeNHROwOps5K21dmCh1GjlnhZJYMvyNizOQSuDd7UBQ1nhejQQ8QLtvk83iDmHNAGMwHwoZkv8epVbYUn4duyRFflUs5a5KjAlPNo0SXe8qA==",
+              "RepositoryCredentials": {
+                "UserName": "KyryloZ-DBM",
+                "Password": "oJtdZOTQoQHjJKoDqxPhnrUH/r6VS470pcjQPtbUJr8="
+              }
+            }
+          ]
         }
       ]
     }
