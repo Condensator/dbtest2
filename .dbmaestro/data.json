@@ -101,7 +101,24 @@
         "ProjectId": "779ce0a0-0dd6-4c1c-9b2c-facbf1d1bb34",
         "ProjectName": "Project2",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "2c53d8d5-a006-4e1e-9216-916793e7a279",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "6f8c198a-27f2-475f-be33-0b1f0ae0cb32",
+                "DatabaseAliasName": "testdb2",
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/dbtest2.git",
+                  "BranchName": "test123"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": false
@@ -111,7 +128,17 @@
       "UserData": [
         {
           "UserName": "KyryloZ-DBM",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "6f8c198a-27f2-475f-be33-0b1f0ae0cb32",
+              "DatabaseAliasName": "testdb2",
+              "ConnectionString": "hrVyiCHlP0Mndmqddt7t45LDi1be8hRj9yYSIiaq4eOZTfCLFyQ0nH8mKlmpJVhZQHwWknJJeaU1BEdMiuXuA/nj4as450llf7/2iql0g/LJaHYzfjyTll3obBSs6NIgjSAdT+DN6mtpt7rlanZNiw==",
+              "RepositoryCredentials": {
+                "UserName": "KyryloZ-DBM",
+                "Password": "oJtdZOTQoQHjJKoDqxPhnrUH/r6VS470pcjQPtbUJr8="
+              }
+            }
+          ]
         }
       ]
     }
