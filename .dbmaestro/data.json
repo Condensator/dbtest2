@@ -141,6 +141,25 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "587038a4-5606-4622-9ae7-bd6629f24b7b",
+        "ProjectName": "ProjectCondensator1",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": false
+        },
+        "LocalDirectory": "C:\\apps\\scc"
+      },
+      "UserData": [
+        {
+          "UserName": "Condensator",
+          "DatabasesData": []
+        }
+      ]
     }
   ]
 }
