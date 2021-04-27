@@ -43,7 +43,7 @@
         ],
         "SourceControlPathType": 0,
         "Configuration": {
-          "BuildMigrationScriptAutomatically": false
+          "BuildMigrationScriptAutomatically": true
         },
         "LocalDirectory": "C:\\apps\\scui\\test1"
       },
