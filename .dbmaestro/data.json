@@ -172,6 +172,15 @@
                   "RemoteRepositoryURL": "https://github.com/Condensator/dbtest2.git",
                   "BranchName": "test123"
                 }
+              },
+              {
+                "DatabaseId": "d0a200d3-5f12-421d-8023-73541492873c",
+                "DatabaseAliasName": "AnotherDatabaseAlias for test",
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/dbtest2.git",
+                  "BranchName": "test123"
+                }
               }
             ]
           }
@@ -214,6 +223,15 @@
               "DatabaseId": "ef7e1ab0-537f-4251-9d84-966caa303071",
               "DatabaseAliasName": "QA3",
               "ConnectionString": "hrVyiCHlP0Mndmqddt7t45LDi1be8hRj9yYSIiaq4eMhhROuSeeN3Zxc8qwxGuvWOqc7lMUZsf0Sdmd4HOK3ShQecwxIuwcoFgLnrmYFaMOI2CoCNYE6x9LwfTeTZsHeuTBsKdMOiIDHpr5c5n5oTQ==",
+              "RepositoryCredentials": {
+                "UserName": "KyryloZ-DBM",
+                "Password": "oJtdZOTQoQHjJKoDqxPhnrUH/r6VS470pcjQPtbUJr8="
+              }
+            },
+            {
+              "DatabaseId": "d0a200d3-5f12-421d-8023-73541492873c",
+              "DatabaseAliasName": "AnotherDatabaseAlias for test",
+              "ConnectionString": "hrVyiCHlP0Mndmqddt7t45LDi1be8hRj9yYSIiaq4eOKwM+MAlW8inlvJ++D9JlvpK8lPNb0lJ/5hqrfoI1dMIrzpmQNAyIC2NOb+yTIBI1MgrPYwjAUe/zbR+wjukHrOsQ6zRoNw9nsvf1bFDM4rw==",
               "RepositoryCredentials": {
                 "UserName": "KyryloZ-DBM",
                 "Password": "oJtdZOTQoQHjJKoDqxPhnrUH/r6VS470pcjQPtbUJr8="
