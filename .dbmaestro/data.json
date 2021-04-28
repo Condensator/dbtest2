@@ -282,7 +282,24 @@
         "ProjectId": "63d4a940-462c-450a-9997-b3b79413481d",
         "ProjectName": "ProjectCondensator3",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "de1aa2fe-b7db-400e-9c4d-d1ae12fcb2dc",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "0ea8f66f-294a-47b1-afac-8bfed2c6cc3b",
+                "DatabaseAliasName": "DB for test 4",
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/dbtest2.git",
+                  "BranchName": "test123"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -293,7 +310,17 @@
       "UserData": [
         {
           "UserName": "Condensator",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "0ea8f66f-294a-47b1-afac-8bfed2c6cc3b",
+              "DatabaseAliasName": "DB for test 4",
+              "ConnectionString": "hrVyiCHlP0Mndmqddt7t45LDi1be8hRj9yYSIiaq4eOZTfCLFyQ0nH8mKlmpJVhZjIfAG6rgLe4Q6Qvm4hInbZoYIXNjLGfeD7xk+G1fJhlQrGp9r1NxldwLZJIDJe2u/QUTBU+VbKH7wpxb4kJYJw==",
+              "RepositoryCredentials": {
+                "UserName": "Condensator",
+                "Password": "ea8yGmw+Ej86bcCmU276W0MIxBY+HgVL69KchuT36x+2OvFcsTg2ga4857NYiiLF"
+              }
+            }
+          ]
         }
       ]
     }
