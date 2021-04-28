@@ -43,7 +43,8 @@
         ],
         "SourceControlPathType": 0,
         "Configuration": {
-          "BuildMigrationScriptAutomatically": false
+          "BuildMigrationScriptAutomatically": false,
+          "BuildMethod": 1
         },
         "LocalDirectory": "C:\\apps\\sourcecontrol\\sck"
       },
@@ -121,7 +122,8 @@
         ],
         "SourceControlPathType": 0,
         "Configuration": {
-          "BuildMigrationScriptAutomatically": false
+          "BuildMigrationScriptAutomatically": false,
+          "BuildMethod": 1
         },
         "LocalDirectory": "C:\\apps\\sc2"
       },
@@ -161,13 +163,23 @@
                   "RemoteRepositoryURL": "https://github.com/Condensator/dbtest2.git",
                   "BranchName": "test123"
                 }
+              },
+              {
+                "DatabaseId": "ef7e1ab0-537f-4251-9d84-966caa303071",
+                "DatabaseAliasName": "QA3",
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/Condensator/dbtest2.git",
+                  "BranchName": "test123"
+                }
               }
             ]
           }
         ],
         "SourceControlPathType": 0,
         "Configuration": {
-          "BuildMigrationScriptAutomatically": false
+          "BuildMigrationScriptAutomatically": false,
+          "BuildMethod": 1
         },
         "LocalDirectory": "C:\\apps\\scc"
       },
@@ -193,6 +205,15 @@
               "DatabaseId": "8092438b-1038-4958-9c3f-4214c056de39",
               "DatabaseAliasName": "testdb1",
               "ConnectionString": "hrVyiCHlP0Mndmqddt7t45LDi1be8hRj9yYSIiaq4eOZTfCLFyQ0nH8mKlmpJVhZCyjvhbVW7AJWtRRupA6d7jDnYnonrX1WWaqbLHko1X67RkKaSS3oQ9+xxKTt4878+VeJgSg8JnQyrAeCftWm5g==",
+              "RepositoryCredentials": {
+                "UserName": "KyryloZ-DBM",
+                "Password": "oJtdZOTQoQHjJKoDqxPhnrUH/r6VS470pcjQPtbUJr8="
+              }
+            },
+            {
+              "DatabaseId": "ef7e1ab0-537f-4251-9d84-966caa303071",
+              "DatabaseAliasName": "QA3",
+              "ConnectionString": "hrVyiCHlP0Mndmqddt7t45LDi1be8hRj9yYSIiaq4eMhhROuSeeN3Zxc8qwxGuvWOqc7lMUZsf0Sdmd4HOK3ShQecwxIuwcoFgLnrmYFaMOI2CoCNYE6x9LwfTeTZsHeuTBsKdMOiIDHpr5c5n5oTQ==",
               "RepositoryCredentials": {
                 "UserName": "KyryloZ-DBM",
                 "Password": "oJtdZOTQoQHjJKoDqxPhnrUH/r6VS470pcjQPtbUJr8="
