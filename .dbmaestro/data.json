@@ -337,6 +337,26 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "243c2c30-f7e3-4ddf-aff7-7264164d08f2",
+        "ProjectName": "Project4",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 1
+        },
+        "LocalDirectory": "C:\\apps\\sourcecontrol\\scc2"
+      },
+      "UserData": [
+        {
+          "UserName": "KyryloZ-DBM",
+          "DatabasesData": []
+        }
+      ]
     }
   ]
 }
