@@ -101,6 +101,15 @@
                 "UserName": "KyryloZ-DBM",
                 "Password": "oJtdZOTQoQHjJKoDqxPhnrUH/r6VS470pcjQPtbUJr8="
               }
+            },
+            {
+              "DatabaseId": "a861411c-5251-456f-af3f-2f621f4f7e81",
+              "DatabaseAliasName": "RS3",
+              "ConnectionString": "hrVyiCHlP0Mndmqddt7t45LDi1be8hRj9yYSIiaq4eO7m5WJu8BKHl7W8vsJDeY0xqvzsPD4pR11th+wmcWXhgIr2mN+kWOy7G3aUg32Tbo/0a0zC/AMJ8wMcNSSYdC0mgH55QQrXsZUBUOFXUSrgQ==",
+              "RepositoryCredentials": {
+                "UserName": "KyryloZ-DBM",
+                "Password": "oJtdZOTQoQHjJKoDqxPhnrUH/r6VS470pcjQPtbUJr8="
+              }
             }
           ]
         }
